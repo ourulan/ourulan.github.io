@@ -1,1 +1,25 @@
-theme: jekyll-theme-tactile
+# Site settings
+name: 博客名称
+email: 邮箱
+author: 作者
+url: 网址
+resume_site: https://zzzzzzxt.github.io/
+github: https://zzzzzzxt.github.io/
+baseurl: "/LessOrMore"
+description: Actually, less is more!
+meta_description: 描述
+motto: It's our wits that make us men.
+banner: 描述
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: zzzzzzxt
+
+# Build settings
+markdown: kramdown
+
+
